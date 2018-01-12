@@ -1,0 +1,41 @@
+/* Dashbpard at the top */
+
+#nav {
+	margin:0;
+	padding:0;
+	background:#808259 url(nav_bg.jpg) 0 0 repeat-x;
+	float:left;
+	width:100%;
+}
+#nav li {
+	display:inline;
+	padding:0;
+	margin:0;
+	color:#000;
+	background:#b2b580;
+	padding:20px 40px 4px 10px;
+	float:left;
+	width:auto;
+}
+#nav a:link,
+#nav a:visited {
+
+}
+/* Table for editing pages */
+
+table {
+	font-family: sans-serif;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+td, th {
+	border: 1px solid #dddddd;
+	text-align: center;
+	padding: 8px;
+}
+
+tr:nth-child(even) {
+	background-color: #dddddd;
+}
+
